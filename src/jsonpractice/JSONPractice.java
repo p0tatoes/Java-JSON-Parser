@@ -7,6 +7,8 @@ package jsonpractice;
 /**
  *
  * @author mpdeloja
+ *
+ * Main class.
  */
 public class JSONPractice {
 
@@ -14,6 +16,11 @@ public class JSONPractice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /**
+         * Creates an instance of MyJSONParser class to test "parseJSON"
+         * function on employees json file. Should print out all data fields in
+         * a tabular form
+         */
         MyJSONParser myParser = new MyJSONParser();
         myParser.parseJSON("employees.json");
     }
